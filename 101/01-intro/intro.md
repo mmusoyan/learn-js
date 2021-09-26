@@ -13,7 +13,7 @@
 - Programming IOT devices.
 
 ## JS engines
-- In order to work, JavaScript needs an environment. These environmants are called engines.
+- In order to run, JavaScript needs an environment. These environmants are called engines. Each engine comes with a set of useful functions that let programmers interact with the environment (e.g. console, alert)
 - Most web browsers have a dedicated JavaScript engine to execute the code:
   - V8 from Google is the most used JavaScript engine. All Chromium-based browsers and Node.js use it.
   - SpiderMonkey is developed by Mozilla for use in Firefox.
@@ -24,17 +24,22 @@
 - Node.js is an open-source, cross-platform, back-end JavaScript environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 - Node.js lets developers use a single language for the entire web-application development, instead of different languages for server-side and client-side scripts. 
 
-## WEB API in browsers
-
-
 ## developer tools
+- code editor (Visual Studio Code, Sublime, Atom, Notepad++, etc.)
+- browser:
+  - console
+  - network
+  - inspector
+  - debugger
 
 ## the backward compatibility of web languages
-
-## JS specifications (ECMAScript)
+- all changes, updates and modifications to the three languages (technologies) of the web should be made in a way that does not break existing code.
 
 ## compiled vs interpreted
-
-## weak typing vs strong typing
+- compiled language is coded by a human, then that source code is translated into an environment-understandable code
+- interpreted language is compiled in real time when it's run
 
 ## commenting code
+- there are two ways we can comment JS code:
+  - ` // this is a single-line comment `
+  - ` /* this could be a multy-line comment */ `
