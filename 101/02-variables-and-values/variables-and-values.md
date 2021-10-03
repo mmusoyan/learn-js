@@ -63,4 +63,13 @@
 - the property name (key) is the address
 - elements can be any value type
 
+## typeof
+- typeof 15
+- typeof 'hello'
+- typeof false
+- typeof undefined
+- typeof {name: 'Anne'}
+- typeof null
+- typeof ["yellow", "red", "green"]
+
 ## value assignment vs reference assignment
