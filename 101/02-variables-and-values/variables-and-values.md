@@ -9,8 +9,8 @@
   - undefined
 
 - non-primitive values:
-  - ["yellow", "red", "green"] - упорядоченный список
-  - {name: "Anne", age: 27} - именной список
+  - array ["yellow", "red", "green"] - упорядоченный список. ['vardan', 'vova', 'david', 'khach', 'gor']
+  - object {name: "Anne", age: 27} - именной список 
 
 
 ## var, let, const
