@@ -46,6 +46,14 @@ var bouquetKhach = {
     }
 }
 
+var valueOn41st = bouquetKhach.design.somethingLikeStars;
+    
+var secondColorOn35th = bouquetKhach.color[1]
+var secondColorOn35th = bouquetKhach.color[1]
+var secondColorOn35th = bouquetKhach.color[1]
+var firstColorOn35th = bouquetKhach.color[0]
+// console.log(valueOn41st) -> true
+
 // Gor
 var bouquetGor = {
   type: 'rose',
