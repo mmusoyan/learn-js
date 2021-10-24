@@ -1,11 +1,16 @@
+// snake_case_example
+// PascalCaseExample
+// kebab-case-example
+// camelCaseExample
+
 // David
 const stall = {
-  bread: "5",
-  sugar: "name",
-  gum: "2",
+  bread: 5,
+  sugar: "name", // should be brand name
+  gum: 2,
   seller: {
-    firstname: "Mike",
-    age: "20"
+    firstName: "Mike",
+    age: 20
   }
 }
 
@@ -15,42 +20,56 @@ let cupboard = ["clothes", "books", "cars", "knives"];
 const myRoom = [bed, cupboard, window];
 
 
+
 // Gor
 var room = {
   walls: {
-    q: 4,
+    quantity: 4,
     color: {
       shade: '~peach',
-      hex: '~FFB266'
+      hex: '#FFB266' //hexadecimal 0-9 a-f -> 
     },
-    props: {
+    properties: {
       door: true,
       windows: true,
       additionalDecor: 1
     }
   },
-  furniture: [{
-    bed: {
-      size: 'queen size',
-      condition: 'very old',
-      associations: 'hate'
-    }
-  }, 'table', 'tv stand', 'closet', '~stand', 'chair', 'chair']
+  furniture: [
+    {
+      bed: {
+        size: 'queen size',
+        condition: 'very old',
+        associations: 'hate'
+      }
+    },
+    'table', 'tv stand', 'closet', '~stand', 'chair', 'chair']
 }
 
+
 var store = {
-    staff: ['owner', 'manager', {
+  staff: [
+    'owner',
+    'manager',
+    {
       cashiers: {
-        q: 12
+        quantity: 12
       }
-    }, 'cleaners', 'storage workers'],
-    sections: {
-      totalnumber: 10,
-      list: [{
-          food: ['bread', 'meat', 'milk and eggs', 'vegetables', 'drinks', 'snacks and confetionary', 'canned food']
-        }, {
-          hardware: ['i am', 'bored', 'sorry']]
+    },
+    'cleaners',
+    'storage workers'
+  ],
+  sections: {
+    totalNumber: 10,
+    list: [{
+        food: ['bread', 'meat', 'milk and eggs', 'vegetables', 'drinks', 'snacks and confetionary', 'canned food']
+      },
+      {
+        hardware: ['i am', 'bored', 'sorry']
       }
+    ]
+  }
+}
              
              
              
@@ -59,7 +78,7 @@ var car = {
   tire: 4,
   color: "black",
   glass: "white",
-  rudder: {
+  rudder: { // steering wheel
     color: "brown",
     spinning: true
   }
