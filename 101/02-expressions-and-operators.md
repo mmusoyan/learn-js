@@ -14,13 +14,13 @@ operand operator
 operator operand (delete, typeof)
 
 #### assignment operators
-x = y -> x = y
-x += y ->	x = x + y
-x -= y ->	x = x - y
-x *= y ->	x = x * y
-x /= y ->	x = x / y
-x %= y ->	x = x % y
-x **= y -> x = x ** y
+- x = y -> x = y
+- x += y ->	x = x + y
+- x -= y ->	x = x - y
+- x *= y ->	x = x * y
+- x /= y ->	x = x / y
+- x %= y ->	x = x % y
+- x **= y -> x = x ** y
 
 // assignment operators have a return value
 // destructuring arrays and objects
