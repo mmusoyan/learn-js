@@ -1,10 +1,23 @@
 An expression is any valid unit of code that resolves to a value.
 
 #### what is an expression
-var age = 12;
-age = 2 * (age + 3)
+- var age = 12;
+
+- age = 2 * (age + 3)
+- 3
+- 2
+- age + 3
+- age
+- 2 * (age + 3)
+- age = 
+
+- // i have a friend who likes to drink tea.
 
 #### what is a statement
+var a;
+var b = 15;
+JSON.parse('{"age":42,"name":"susan","hobby":"knitting","food":"ice cream"}');
+
 
 ## JS operators
 ### binary operators:
