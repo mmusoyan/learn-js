@@ -73,3 +73,9 @@
 - typeof ["yellow", "red", "green"]
 
 ## value assignment vs reference assignment
+
+var sister = 
+{age: 42, name: 'susan', hobby: 'knitting', food: 'ice cream'}
+'{"age":42,"name":"susan","hobby":"knitting","food":"ice cream"}'
+
+
