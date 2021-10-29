@@ -22,35 +22,35 @@ operator operand (delete, typeof)
 - x %= y ->	x = x % y
 - x **= y -> x = x ** y
 
-// assignment operators have a return value
-// destructuring arrays and objects
+- // assignment operators have a return value
+- // destructuring arrays and objects
 
 
 #### comparison operators
-==
-!=
+- ==
+- !=
 
-===
-!==
+- ===
+- !==
 
-\>
-\>=
+- \>
+- \>=
 
-\<
-\<=
+- \<
+- \<=
 
 #### arithmetic operators
-% - remainder
-++ - increment
--- - decrement
-- - unary negation
-+ - unary plus
-** - exponentiation
+- % - remainder
+- ++ - increment
+- -- - decrement
+- \- - unary negation
+- \+ - unary plus
+- ** - exponentiation
 
 #### logical operators
-&&
-||
-!
+- &&
+- ||
+- !
 
 
 #### conditional (ternary) operator
