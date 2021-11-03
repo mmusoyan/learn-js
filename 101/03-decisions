@@ -1,5 +1,46 @@
 ## if/else
 
+var grade = 7;
+var excellent = 10;
+
+if (grade === excellent) {
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+ // give me a red diploma 
+} else if (grade >= 8 && grade < 10) {
+        // give me a blue diploma
+        // give me a blue diploma
+        // give me a blue diploma
+        // give me a blue diploma
+        // give me a blue diploma
+        // give me a blue diploma
+        // give me a blue diploma
+       } else if (grade < 8 && grade >= 6) {
+                // let me redo the exam
+                // let me redo the exam
+                // let me redo the exam
+                // let me redo the exam
+                // let me redo the exam
+                // let me redo the exam
+                // let me redo the exam
+              } else {
+                // kick me out of the school
+                // kick me out of the school
+                // kick me out of the school
+                // kick me out of the school
+                // kick me out of the school
+                // kick me out of the school
+              }
+              
+              var e=7;var f=10;if(e===f){}else if(e>=8&&e<10){}else if(e<8&&e>=6){}else{}
+
 ## ternary operator
+k = 1 > 2 ? 2 : 5
 
 ## switch
