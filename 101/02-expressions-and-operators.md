@@ -61,12 +61,31 @@ operator operand (delete, typeof)
 - ** - exponentiation
 
 #### logical operators
-- &&
-- ||
-- !
+- && (logical AND)
+- || (logical OR)
+- ! (logical NOT)
+
+2 * 2 ** 2 - 2 = 16
+2 * 2 ** 2 - 2 = 8
 
 
 #### conditional (ternary) operator
-condition ? val1 : val2
+
+condition ? val1 : val2 if (something) {return val1} else {return val2}
+
+4/2
+a = 1, b = 0, c = 3
+
+var oho = a + c > b ? 8 : 2 > 0 ? "23" : 14
+
+a + (c > b ? 8 : 2 > 0 ? "23": 14)
+
+
+oho?
+        ______2________    
+u = 1 + (1 < 2 ? 2 : 5)
+u = 3
+
+f = 1 + (k = 1 > 2 ? 2 : 5)
 
 #### operator precedence
