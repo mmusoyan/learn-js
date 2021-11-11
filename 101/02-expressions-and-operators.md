@@ -4,12 +4,6 @@ An expression is any valid unit of code that resolves to a value.
 - var age = 12;
 
 - age = 2 * (age + 3)
-- 3
-- 2
-- age + 3
-- age
-- 2 * (age + 3)
-- age = 
 
 - // i have a friend who likes to drink tea.
 
