@@ -63,11 +63,14 @@ for (let i = 0; i < 10; i++) {
  [1, 5, 6, 7, 9, 15, 12, 3, 10]
  [1, 'buzz', 'fizz', 7, 'fizz', 'fizz-buzz', 'fizz', 'fizz', 'buzz']
  
- write a loop that will iterate over an array with numbers (positive integers), and check:
- * if the number divides by three => replace it with 'fizz'
- * if the number divides by five => replace it with 'buzz'
- * if the number divides by three and five => replace it with 'fizz-buzz'
- * otherwise, just write the number
+- write a loop that will iterate over an array with numbers (positive integers), and check:
+   * if the number divides by three => replace it with 'fizz'
+   * if the number divides by five => replace it with 'buzz'
+   * if the number divides by three and five => replace it with 'fizz-buzz'
+   * otherwise, just write the number
+   
+- write a loop that will calculate how many logs do I need for my fence if I want the fence to have a log on both ends,
+and there should be a log every 2 meters
  
 
  
