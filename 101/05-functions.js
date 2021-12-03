@@ -27,9 +27,9 @@ function calculateAgeIn5Years (currentAge) {
 
 let myAgeIn5Years = calculateAgeIn5Years(29);
 
-function juicer (fruit): void {
+function juicer (fruit) {
 // something happened
   return `${fruit} juice`
 }
 
-glass = juicer('apple');
+var glass = juicer('apple');
