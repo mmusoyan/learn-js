@@ -2,7 +2,11 @@
 15 metrov
 |_ _ _|_ _ _|_ _ _|_ _ _|_ _ _|
 
- _ _ _|_ _ _|_ _ _|_ _ _|_ _ _
+ _ _ _|_ _ _|_ _ _|_ _ _|_ _ _|
+
+// цифра - digit
+// число - number
+
 
 
 a log every 3 meters
@@ -72,16 +76,162 @@ for (let i = 0; i < 10; i++) {
 - write a loop that will calculate how many logs do I need for my fence if I want the fence to have a log on both ends,
 and there should be a log every 2 meters
  
-
  
+// David
+var arr = [1, 3, 5, 6, 7, 9, 15, 12, 3, 30]
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 3 == 0 && arr[i] % 5 == 0) {
+    arr[i] = ("fizz-buzz");
+  } else if (arr[i] % 3 == 0) {
+    arr[i] = ("fizz");
+  } else if (arr[i] % 5 == 0) {
+    arr[i] = ("buzz");
+  } else {
+
+  }
+}
+console.log(arr)
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 3 == 0) {
+    if (arr[i] % 5 == 0) {
+      arr[i] = ("fizz-buzz");
+    } else {
+     arr[i] = ("fizz");
+    }   
+  } else if (arr[i] % 5 == 0) {
+    arr[i] = ("buzz");
+  }
+}
+
+// Vardan
+let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 30];
+let newArray = [];
+for (let i = 0; i < numArray.length; i++) {
+  if (numArray[i] % 3 === 0) {
+    if (numArray[i] % 5 === 0) {
+      newArray.push("fizz-buzz");
+    } else {
+      newArray.push('fizz');
+    }
+  } else if (numArray[i] % 5 === 0) {
+    newArray.push('buzz');
+  } else {
+    newArray.push(numArray[i]);
+}
+
+// Gor
+let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 30];
+
+for (let i = 0; i < arr.length; i++) {
+  let temporaryString = ""
+
+  if (arr[i] % 3 == 0) {
+    temporaryString += 'fizz'
+  }
+  if (arr[i] % 3 == 0 && arr[i] % 5 == 0) {
+    temporaryString += "-"
+  }
+  if (arr[i] % 5 == 0) {
+    temporaryString += 'buzz'
+  }
+  if (temporaryString !== "") {
+    arr[i] = temporaryString
+  }
+}
 
 
 
+check for 7 as well, replace it with "foo" if 7, with "fizz-foo" if 3 and 7, "buzz-foo" if 5 and 7, with "fizz-buzz-foo" if all 3
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 3 == 0) {
+    if (arr[i] % 5 == 0) {
+      if (arr[i] % 7 == 0) {
+        arr[i] = "3-5-7"
+      } else {
+        arr[i] = ("3-5");
+      }
+    } else if (arr[i] % 7 == 0) {
+      arr[i] = ("3-7");
+    } else {
+      arr[i] = "3-"
+    }
+  } else if (arr[i] % 5 == 0) {
+    if (arr[i] % 7 == 0) {
+      arr[i] = "5-7"
+    } else {
+      arr[i] = "5-"
+    }
+  } else if (arr[i] % 7 == 0) {
+    arr[i] = "7-"
+  }
+}
+
+for (let i = 0; i < arr.length; i++) {
+  let temporaryString = ""
+  if (arr[i] % 3 == 0) {
+    temporaryString += "3"
+    if (arr[i] % 5 == 0) {
+     temporaryString += "-"
+   }
+  }  
+  if (arr[i] % 5 == 0) {
+    temporaryString += "5"
+  }
+  if (arr[i] % 5 == 0 && arr[i] % 7 == 0 || arr[i] % 3 == 0 && arr[i] % 7 == 0) {
+    temporaryString += "-"
+  }
+  if (arr[i] % 7 == 0) {
+    temporaryString += "7"
+  }
+  if (temporaryString !== "") {
+    arr[i] = temporaryString
+  }
+}
 
 
+//David
 
+var len = 17;
+var str = "";
+var niz = 0;
+var palka = 0;
+for (var i = 0; i < len; i++) {
+  if (i % 2 == 0) {
+    str += "|";
+    palka++;
+  } else {
+    str += "_ _";
+    niz++;
+  }
+}
+if (len % 2 == 0) {
+  str += "|";
+  palka++;
+} else {
+str += "_|"
+palka++;
+niz += 0.5
+}
+console.log(str);
+console.log(palka + " palka");
+console.log(niz + "niz");
 
+// Vardan
+let fenceLength = 51;
+let numberOfLogs = 1;
+for (let i = 0; i < fenceLength; i = i + 2) {
+  numberOfLogs++;
+}
+console.log(numberOfLogs);
 
-
-
+// Gor
+logAmount = 0;
+for (let i = 0; i < length; i += 2) {
+  logAmount++
+};
+logAmount++;
+console.log(logAmount);
 
