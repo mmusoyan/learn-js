@@ -68,22 +68,24 @@ function sortArrayByAscending(arr) {
 }
 
 // Gor
+// assignment by reference vs assignment by value
+var originalArr = [11, 6, 2, -46, 8, 43];
+var newArr = [];
+var cloneArr = [...originalArr];
+var tempIndex;
 
-let arr = [1, 12, 45, 2, 8, 68];
-function orderByAscendingValue(originalArray) {
-  let originalLength = originalArray.length;
-  let q = 0;
-  var newArray = [];
-  newArray[0] = originalArray[0];
-  for (let i = 0; i < originalLength; i++) {
-    for (let j = 0; j < originalLength; j++) {
-      if (originalArray[j] < newArray[q]) {
-        newArray[q] = originalArray[j];
-      }
+for (let i = 0; i < originalArr.length; i++) {
+
+  newArr[i] = cloneArr[0];
+  tempIndex = 0;
+
+  for (let j = 1; j < cloneArr.length; j++) {
+    if (newArr[i] >= cloneArr[j]) {
+      newArr[i] = cloneArr[j];
+      tempIndex = j;
     }
-    q++;
-    newArray[q] = newArray[q - 1];
   }
+  cloneArr.splice(tempIndex, 1);
 }
 
 // David
@@ -91,7 +93,7 @@ function orderByAscendingValue(originalArray) {
 let arr = [15, 1, 12, 45, 2, 8, 68, 5];
 function sortArray(array) {
   let newArr = [1];
-// 1
+
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
       if (array[i] < array[j]) {
@@ -100,4 +102,23 @@ function sortArray(array) {
     }
   }
   return newArr;
+}
+
+let go = [11, 6, 2, -46, 8, 43];
+let newGo = [...go];
+let tempMin = 0;
+
+// for (let i = 0; i < go.length; i++) {
+//   newGo[i] = go[i];
+// }
+
+// bubble sort
+for (let i = 0; i < go.length; i++) {
+  for (let j = i; j < newGo.length; j++) {
+    if (newGo[i] > newGo[j]) {
+      tempMin = newGo[j];
+      newGo[j] = newGo[i];
+      newGo[i] = tempMin;
+    }
+  }
 }
