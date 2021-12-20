@@ -16,9 +16,25 @@ function sayHello (person = "me") {
   color = "red"
 }
 
-
+let var const
+- follows block scoping + - +
+- will be hoisted - + -
+- value can be changed + + -
 // hoisting
 // GLOBAL SCOPE
+// block scope
+{
+ var potato = true;
+ let tomato = false;
+}
+// function scope
+function sayWhat(param1, param2, etc..){
+ {var hey = "hello";}
+ {let why = "because";}
+ console.log(hey)
+ return param1 + param2;
+}
+
 var age = 27;
 
 console.log(potato)
