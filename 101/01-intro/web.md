@@ -2,7 +2,7 @@
 - websites are files that exist on remote computers `servers`
 - we ask a browser `client` to get them for us
 - the browser requests and then gets all the necessary files
-- then combine them into a website we can see and interact with
+- then combines them into a website we can see and interact with
 
 ## the following work together to show a website to the user:
 - `client`
