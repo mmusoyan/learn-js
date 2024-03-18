@@ -32,8 +32,8 @@
   - inspector
   - debugger
 
-## the backward compatibility of web languages
-- all changes, updates and modifications to the three languages (technologies) of the web should be made in a way that does not break existing code.
+## the backward compatibility of JS
+- all changes, updates and modifications to JS should be made in a way that does not break existing code.
 
 ## compiled vs interpreted
 - compiled language is coded by a human, then that source code is translated into an environment-understandable code
