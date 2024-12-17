@@ -2,7 +2,7 @@
 - Not Java :D
 - JavaScript is one of the three core technologies of the Web. Other two are HTML and CSS.
 - If HTML and CSS are used to give structure and content (HTML) and style (CSS) to web sites, JavaScript adds interactivity.
-- In 1995 a guy named brendan eich created the JavaScript language as a lightweight solution for adding dynamic functionality to web sites.
+- In 1995 a guy named brendan eich created the JavaScript language as a lightweight solution for adding dynamic functionality to web sites. [this took him 10 days]
 
 ## where is it used?
 - Over 97% of websites use it in the browser for web page interactive behavior.
